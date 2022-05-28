@@ -1,0 +1,109 @@
+.my_cash_card {
+    box-sizing: border-box;
+    width: calc(100% - 7px);
+    height: 75px;
+    background: #2E2D2D;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 10px;
+}
+
+.my_earning_card {
+    box-sizing: border-box;
+    width: calc(100% - 7px);
+    height: 225px;
+    background: #2E2D2D;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 10px;
+    
+}
+
+.earning_date_select{
+    display: flex;
+    padding : 0px 24px;
+}
+
+.select_date {
+    border-radius: 6px;
+    width: 30px;
+    padding:4px 12px;
+    border:1px solid #EFEFEF;
+    background-color: cadetblue;
+
+}
+
+.card_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    padding : 11px 24px;
+}
+
+.earing_select_date{
+    display: flex;
+    padding: 0px 24px;
+}
+
+
+.go_detail_img {
+    width: 26px;
+    height: 26px;
+    content: url("../images/go_detail.png");
+}
+.my_property_img {
+    width: 26px;
+    height: 26px;
+    content: url("../images/my_property_logo.png");
+}
+.m_card{
+    box-sizing: border-box;
+    width: calc(100% - 7px);
+    height: 125px;
+    background: #2E2D2D;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 10px;
+}
+
+.full_card{
+    box-sizing: border-box;
+    width: calc(100% - 7px);
+    height: 100%;
+    background: #2E2D2D;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 10px;
+}
+
+.bithubm_icon{
+    align-items: center;
+    background-color: #fe9601;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 0 8px;
+    width: fit-content;
+    height: 15px;
+    color: white;
+}
+
+.upbit_icon{
+    align-items: center;
+    background-color: #093687;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 0 8px;
+    width: fit-content;
+    height: 15px;
+    color: white;
+}
+
+.my_currency_info{
+    display: inline-block;
+    width: calc(100% - 48px);
+    padding: 24px;
+    justify-content: space-around;
+}

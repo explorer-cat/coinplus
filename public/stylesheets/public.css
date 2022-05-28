@@ -1,0 +1,236 @@
+.wrap {
+    width: 100vw;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #252627;
+    overflow: auto;
+}
+
+.public-size {
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
+
+.public-header {
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #252627;
+    color: white;
+    overflow: hidden;
+}
+
+.nav-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrap > .register {
+    justify-content: space-between;
+    width: 100px;
+}
+
+.register > p:nth-child(1) {
+    margin-right: 8px;
+}
+
+.header-wrap {
+    display: flex;
+    max-width: 1140px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+}
+
+
+
+.public-contents {
+    background-color: #252627;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.public-footer {
+    height: 120px;
+    background-color: yellow;
+
+}
+
+.public_button {
+    min-width: 88px;
+    /* max-width: 124px; */
+    height: 40px;
+    /* margin: 0 4px 0 4px; */
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #0098fe;
+    color: white;
+    padding: 0 12px 0 12px;
+}
+
+
+
+.public_button:hover {
+    min-width: 88px;
+    /* max-width: 124px; */
+    height: 40px;
+    /* margin: 0 4px 0 4px; */
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #287be8;
+    color: white;
+    padding: 0 12px 0 12px;
+}
+
+.public_empty_button {
+    min-width: 88px;
+    /* max-width: 124px; */
+    height: 40px;
+    /* margin: 0 4px 0 4px; */
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #575757;
+    padding: 0 12px 0 12px;
+    border: 1px solid #a8a8a8;
+}
+
+
+
+.public_empty_button:hover {
+    min-width: 88px;
+    /* max-width: 124px; */
+    height: 40px;
+    /* margin: 0 4px 0 4px; */
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #f6f6f8;
+    color: #575757;
+    padding: 0 12px 0 12px;
+    border: 1px solid #a8a8a8;
+}
+
+.public_text {
+    min-width: 47px;
+    height: 24px;
+    /* margin: 0 4px 0 4px; */
+    padding: 0 10px 0 10px;
+    background-color: #f6f6f7;
+    border-radius: 6px;
+    border: solid 1px #a8a8a8;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.coinbuying_login_group{
+    display: flex;
+    width: 230px;
+}
+
+.register > p{
+    cursor: pointer;
+}
+
+
+.date_toggle {
+    background-color: #575757;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 25px;
+    padding : 0 8px;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date_toggle > p {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.public_toggle {
+    background-color: #2E2D2D;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 35px;
+    padding : 0 8px;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.public_toggle > p {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.toggle_select{
+    background-color:  #4B4B4B;
+    border-radius: 10px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #EFEFEF;
+}
+
+
+.date_toggle{
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #4B4B4B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date_select{
+    width: calc((100% - 12px) / 2);
+    background-color: transparent;
+    border-radius: 13px;
+    padding: 3px 3px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 0 4px;
+}
+
+.date_select.select {
+    background-color: #373434;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 10%);
+}

@@ -1,0 +1,17 @@
+.btc_icon {
+    width: 24px;
+    height: 24px;
+    content: url("../images/crpyto/btc.png");
+}
+
+.eth_icon {
+    width: 24px;
+    height: 24px;
+    content: url("../images/crpyto/eth.png");
+}
+
+.sol_icon {
+    width: 24px;
+    height: 24px;
+    content: url("../images/crpyto/sol.png");
+}

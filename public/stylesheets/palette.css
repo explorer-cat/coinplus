@@ -1,0 +1,39 @@
+:root {
+    /*클로바인*/
+
+
+    --border-color: #d2d2d2;
+    --color-light-gray-active: #f6f6f6;
+    --ice-blue-btn-active: #cce8ff;
+    --thead-color: #eeeeee;
+    --color-bright-gray: #f1f1f1;
+    --color-list-gray: #f3f3f3;
+    --background-color: #f9f9f9;
+    --color-white: #ffffff;
+    --opacity_back: rgba(10, 10, 10, 0.35);
+    --point-font: #6849e2;
+    --clovine: #7a53d9;
+    --clovine-point: #ebebfc;
+    --point-blue: #006fff;
+    --point-blue-ligth: #E5F3FF;
+    --point-red-deep: #fa0000;
+    --point-red: #f73e50;
+    --point-red-light: #ffebeb;
+    --point-green: #40D240;
+    --task-green: #A3DE48;
+    --task-red: #F73E50;
+    --task-yellow: #F6C114;
+    --task-gray: #a8a8a8;
+
+    --greyOpacity50: rgba(0,23,51,0.02);
+    --greyOpacity100: rgba(2,32,71,0.05);
+    --greyOpacity200: rgba(0,27,55,0.1);
+    --greyOpacity300: rgba(0,29,58,0.18);
+    --greyOpacity400: rgba(0,29,54,0.31);
+    --greyOpacity500: rgba(3,24,50,0.46);
+    --greyOpacity600: rgba(0,19,43,0.58);
+    --greyOpacity700: rgba(3,18,40,0.7);
+    --greyOpacity800: rgba(0,12,30,0.8);
+    --greyOpacity900: rgba(2,9,19,0.91);
+
+}
